@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Git Pull - 1') {
+        stage('Test - 1') {
             steps {
                 echo 'pulling from github...'
             }
