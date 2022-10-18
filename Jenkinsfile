@@ -2,22 +2,22 @@ pipeline {
     agent any
 
     stages {
-        stage('Git Pull') {
+        stage('Git Pull - 1') {
             steps {
                 echo 'pulling from github...'
             }
         }
-        stage('Hello') {
+        stage('Hello - 2') {
             steps {
                 echo 'Hello World'
             }
         }
-        stage('UAT') {
+        stage('UAT - 3') {
             steps {
                 echo 'pre Prod'
             }
         }
-        stage('Deploy') {
+        stage('Deploy - 4') {
             steps {
                 echo 'Hello World!'
             }
